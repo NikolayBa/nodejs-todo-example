@@ -2,8 +2,7 @@ const uuid = require('uuid-v4');
 
 const items = new Map();
 
-module.exports = null;
-/*{
+module.exports = {
       add(item) {
           item.id = uuid();
           items.set(item.id, item);
@@ -15,4 +14,3 @@ module.exports = null;
           return Array.from(items.values());
       }
 };
-*/
